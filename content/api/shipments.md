@@ -38,7 +38,7 @@ Assuming in this instance that you want to create a shipment with a stock_locati
 
 <%= admin_only %>
 
-To update a shipment information, make a request like this:
+To update shipment information, make a request like this:
 
 ```text
 PUT /api/orders/R1234567/shipments/H123456789?shipment[tracking]=TRK9000```
